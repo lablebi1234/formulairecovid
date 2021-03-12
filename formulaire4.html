@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="covid icon.png">
+	<meta charset="UTF-8">
+	<title>Formulaire</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="contact-form">
+		<img alt="" class="avatar" src="https://i.postimg.cc/zDyt7KCv/a1.jpg">
+		<h1>Formulaire Covid-19</h1>
+		<form id="form">
+            <h2 class="A">
+            Les symptômes moins communs
+            </h2>
+            <br>
+            <p class="Q">
+            </p>
+            <p class="Q">
+                Avez-vous eu une perte du goût de l’odorat ?
+            </p>
+            <div>
+                <fieldset id="groupe7">
+                <input type="radio" value="2" name="groupe7" class="demo5" id="demo5-a" checked>
+                <label for="demo5-a" class="radio">Oui</label>
+                <br>
+                <input type="radio" value="0" name="groupe7" class="demo5" id="demo5-b" >
+                <label for="demo5-b" class="radio">Non</label>
+            </fieldset>
+              </div>
+              <p class="Q">
+               </p>
+               <p class="Q">
+                Avez-vous des maux de gorge ?
+               </p>
+               <div>
+                <fieldset id="groupe8">
+                   <input type="radio" value="2" name="groupe8" class="demo5" id="demo5-c" checked>
+                   <label for="demo5-c" class="radio">Oui</label>
+                   <br>
+                   <input type="radio"value="0" name="groupe8" class="demo5" id="demo5-d" >
+                   <label for="demo5-d" class="radio">Non</label>
+                </fieldset>
+                 </div>
+                 <p class="Q">
+                   </p>
+                   <p class="Q">
+                    Avez-vous des maux de tête ?
+                   </p>
+                   <div>
+                    <fieldset id="groupe9">
+                       <input type="radio" value="1" name="groupe9" class="demo5" id="demo5-e" checked>
+                       <label for="demo5-e" class="radio">Oui</label>
+                       <br>
+                       <input type="radio" value="0" name="groupe9" class="demo5" id="demo5-e" checked>
+                       <label for="demo5-e" class="radio">Non</label>
+                    </fieldset>
+                    <input class="s" onclick="calcul_score_2()" value="résultat">
+                    <h3 id="scorik"></h3>
+                       <a href="accueil.html" >
+                        <input type="submit"  class="s" value="terminer">
+                    </a>
+                     </div>
+               </div>
+            </div>
+            <span id="malf"></span>
+            <script src="index.js"></script>
+            <script src="functions.js"></script>
+</body>
+</html>

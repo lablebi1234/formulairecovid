@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="covid icon.png">
+	<meta charset="UTF-8">
+	<title>Formulaire</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="contact-form">
+		<img alt="" class="avatar" src="https://i.postimg.cc/zDyt7KCv/a1.jpg">
+		<h1>Formulaire Covid-19</h1>
+		<form id="form">
+            <h2 class="A">
+            Les symptômes les plus communs
+            </h2>
+            <br>
+            <p class="Q">
+            Fièvre :
+            </p>
+            <p class="Q">
+            Est-ce que votre température corporelle a dépassée 38° ?
+            </p>
+            <div>
+              <fieldset id="groupe1">
+                <input type="radio" value="3" name="groupe1" class="demo5" id="demo5-a" checked>
+                <label for="demo5-a" class="radio">Oui</label>
+                <br>
+                <input type="radio" value="0" name="groupe1" class="demo5" id="demo5-b" >
+                <label for="demo5-b" class="radio">Non</label>
+                </fieldset>
+              </div>
+              <p class="Q">
+                Fatigue :
+               </p>
+               <p class="Q">
+               Est-ce que vous vous sentez plus ou moins fatigué récemment ?
+               </p>
+               <div>
+                <fieldset id="groupe2">
+                   <input type="radio" value="2" name="groupe2" class="demo5" id="demo5-c" checked>
+                   <label for="demo5-c" class="radio">Oui</label>
+                   <br>
+                   <input type="radio" value="0"  name="groupe2" class="demo5" id="demo5-d" >
+                   <label for="demo5-d" class="radio">Non</label>
+                   </fieldset>
+                 </div>
+                 <p class="Q">
+                    Toux :
+                   </p>
+                   <p class="Q">
+                    Avez-vous de la toux ? Quelle sorte ?
+                   </p>
+                   <div>
+                     <fieldset id="groupe3">
+                       <input type="radio" value="3" name="groupe3" class="demo5" id="demo5-e" checked>
+                       <label for="demo5-e" class="radio">Toux sèche</label>
+                       <input type="radio" value="2" name="groupe3" class="demo5" id="demo5-f" >
+                       <label for="demo5-f" class="radio">Toux régulière</label>
+                       <input type="radio" value="0" name="groupe3" class="demo5" id="demo5-e" checked>
+                       <label for="demo5-e" class="radio">Non</label>
+                     </fieldset>
+                       <a href="formulaire3.html" >
+                        <input type="submit" class="s" value="suivante">
+                      </a>
+                     </div>
+               </div>
+            </div>
+            <span id="malf"></span>
+            <script src="index.js"></script>
+            <script src="functions.js"></script>
+</body>
+</html>
